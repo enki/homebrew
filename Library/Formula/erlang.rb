@@ -1,13 +1,13 @@
 require 'formula'
 
 class ErlangManuals < Formula
-  url 'http://erlang.org/download/otp_doc_man_R14B03.tar.gz'
-  md5 '357f54b174bb29d41fee97c063a47e8f'
+  url 'http://erlang.org/download/otp_doc_man_R14B01.tar.gz'
+  md5 '55376d3b1994d083cd21c9d849517c6c'
 end
 
 class ErlangHtmls < Formula
-  url 'http://erlang.org/download/otp_doc_html_R14B03.tar.gz'
-  md5 'c9033bc35dbe4631dd2d14a6183b966a'
+  url 'http://erlang.org/download/otp_doc_html_R14B01.tar.gz'
+  md5 '92c141862ee12e9975d923d665b8a5c7'
 end
 
 class ErlangHeadManuals < Formula
@@ -22,8 +22,8 @@ end
 
 class Erlang < Formula
   # Download from GitHub. Much faster than official tarball.
-  url "https://github.com/erlang/otp.git", :tag => "OTP_R14B03"
-  version 'R14B03'
+  url "git://github.com/erlang/otp.git", :tag => "OTP_R14B01"
+  version 'R14B01'
   homepage 'http://www.erlang.org'
 
   head "https://github.com/erlang/otp.git", :branch => "dev"
