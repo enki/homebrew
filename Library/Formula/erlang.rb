@@ -1,13 +1,13 @@
 require 'formula'
 
 class ErlangManuals < Formula
-  url 'http://erlang.org/download/otp_doc_man_R14B03.tar.gz'
-  md5 '357f54b174bb29d41fee97c063a47e8f'
+  url 'http://erlang.org/download/otp_doc_man_R14B01.tar.gz'
+  md5 '55376d3b1994d083cd21c9d849517c6c'
 end
 
 class ErlangHtmls < Formula
-  url 'http://erlang.org/download/otp_doc_html_R14B03.tar.gz'
-  md5 'c9033bc35dbe4631dd2d14a6183b966a'
+  url 'http://erlang.org/download/otp_doc_html_R14B01.tar.gz'
+  md5 '92c141862ee12e9975d923d665b8a5c7'
 end
 
 class ErlangHeadManuals < Formula
